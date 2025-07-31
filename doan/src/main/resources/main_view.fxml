@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.doan.MainController">
+    <top>
+        <Label text="Subdomain Scanner UI" />
+    </top>
+    <center>
+        <VBox spacing="10" alignment="CENTER">
+            <TextField fx:id="domainInput" promptText="Enter domain"/>
+            <Button text="Scan" onAction="#handleScan"/>
+        </VBox>
+    </center>
+</BorderPane>

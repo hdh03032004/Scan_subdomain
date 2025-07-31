@@ -1,0 +1,10 @@
+{
+
+    //  "type": "java",
+    //     "name": "Run JavaFX App",
+    //     "request": "launch",
+    //     "mainClass": "com.doan.MainApp",
+    //     "vmArgs": "--module-path D:/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml"
+    "java.configuration.updateBuildConfiguration": "interactive"
+    
+}
